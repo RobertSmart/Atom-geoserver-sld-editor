@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle geoserver-sld-editor",
+        "command": "geoserver-sld-editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Geoserver SLD Editor",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "geoserver-sld-editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

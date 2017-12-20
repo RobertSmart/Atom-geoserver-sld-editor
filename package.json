@@ -1,0 +1,20 @@
+{
+  "name": "geoserver-sld-editor",
+  "main": "./lib/geoserver-sld-editor",
+  "version": "0.0.0",
+  "description": "Fetch, edit and put geoserver styles using the geoserver REST interface",
+  "keywords": ["geoserver", "sld", "REST"
+  ],
+  "activationCommands": {
+    "atom-workspace": "geoserver-sld-editor:toggle"
+  },
+  "repository": "https://github.com/RobertSmart/Atom-geoserver-sld-editor.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "latest",
+    "etch": "latest"
+  }
+}
