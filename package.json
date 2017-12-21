@@ -1,7 +1,7 @@
 {
   "name": "geoserver-sld-editor",
   "main": "./lib/geoserver-sld-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fetch, edit and put geoserver styles using the geoserver REST interface",
   "keywords": [
     "geoserver",
